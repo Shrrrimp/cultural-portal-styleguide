@@ -1,6 +1,3 @@
-import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
-
 import { Button } from '@storybook/angular/demo';
 import { ButtonColoredComponent } from '../app/components/button-colored/button-colored.component';
 import { ButtonOutlinedDarkComponent } from '../app/components/button-outlined-dark/button-outlined-dark.component';

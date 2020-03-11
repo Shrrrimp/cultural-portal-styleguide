@@ -1,0 +1,26 @@
+$main_color: #D29F9F;
+$sub_color: #F9E7D3;
+$font_color: #3E3636;
+$black: #000000;
+
+@font-face {
+    font-family: 'Gothic';
+    src: url('src/assets/fonts/GothicRus.woff') format('woff'),
+         url('src/assets/fonts/GothicRus.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0 20px;
+}
+
+h1 {
+    font-family: 'Gothic';
+    color: $black;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $font_color;
+}

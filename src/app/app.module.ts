@@ -7,6 +7,8 @@ import { ColorsComponent } from './components/colors/colors.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ButtonColoredComponent } from './components/button-colored/button-colored.component';
 import { ButtonOutlinedDarkComponent } from './components/button-outlined-dark/button-outlined-dark.component';
+import { ParagraphComponent } from './components/paragraph/paragraph.component';
+import { HeadingsComponent } from './components/headings/headings.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ButtonOutlinedDarkComponent } from './components/button-outlined-dark/b
     ColorsComponent,
     WelcomeComponent,
     ButtonColoredComponent,
-    ButtonOutlinedDarkComponent
+    ButtonOutlinedDarkComponent,
+    ParagraphComponent,
+    HeadingsComponent
   ],
   imports: [
     BrowserModule,
