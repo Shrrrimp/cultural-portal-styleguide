@@ -1,0 +1,31 @@
+$main_color: #D29F9F;
+$sub_color: #F9E7D3;
+$font_color: #3E3636;
+$black: #000000;
+
+@font-face {
+    font-family: 'Gothic';
+    src: url('src/assets/fonts/GothicRus.woff') format('woff'),
+         url('src/assets/fonts/GothicRus.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Gothic';
+    color: $black;
+}
+
+a {
+    color: $main_color;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darken($color: $main_color, $amount: 5);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $font_color;
+}
