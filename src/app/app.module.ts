@@ -9,6 +9,7 @@ import { ButtonColoredComponent } from './components/button-colored/button-color
 import { ButtonOutlinedDarkComponent } from './components/button-outlined-dark/button-outlined-dark.component';
 import { ParagraphComponent } from './components/paragraph/paragraph.component';
 import { HeadingsComponent } from './components/headings/headings.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeadingsComponent } from './components/headings/headings.component';
     ButtonColoredComponent,
     ButtonOutlinedDarkComponent,
     ParagraphComponent,
-    HeadingsComponent
+    HeadingsComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,40 @@
+$main_color: #D29F9F;
+$sub_color: #F9E7D3;
+$font_color: #3E3636;
+$black: #000000;
+
+form {
+    position: relative;
+    width: 41%;
+    margin: 0 auto;
+}
+  
+  input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid $font_color;
+    border-radius: 20px;
+    outline: none;
+    background: #fff;
+    color: #666;
+}
+
+  button {
+    position: absolute; 
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 35px;
+    border: none;
+    background-color: $font_color;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+
+    img {
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin: auto;
+    }
+}
