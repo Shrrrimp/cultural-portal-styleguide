@@ -10,6 +10,9 @@ import { ButtonOutlinedDarkComponent } from './components/button-outlined-dark/b
 import { ParagraphComponent } from './components/paragraph/paragraph.component';
 import { HeadingsComponent } from './components/headings/headings.component';
 import { SearchComponent } from './components/search/search.component';
+import { TimelineComponent } from './components/timeline/timeline.component';
+
+import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 @NgModule({
   declarations: [
@@ -20,11 +23,13 @@ import { SearchComponent } from './components/search/search.component';
     ButtonOutlinedDarkComponent,
     ParagraphComponent,
     HeadingsComponent,
-    SearchComponent
+    SearchComponent,
+    TimelineComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AnimateOnScrollModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
